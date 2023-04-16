@@ -1,11 +1,12 @@
 # Node PM
 
-[官方网站](https://www.npmjs.com/)
+`npm`[^official]
 
 最流行的Node项目管理器 / Node依赖包管理器。
 
 `npm` 全称 `node pm` 或 `new pm`，它**不是**`Node Package Manager`的缩写[^readme]。
 
+[^official]:[npm 英文官网](https://www.npmjs.com/)
 [^readme]: 参考官方仓库的[ReadME](https://github.com/npm/cli#is-npm-an-acronym-for-node-package-manager)文件
 
 ## 下载

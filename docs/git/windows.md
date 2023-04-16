@@ -1,6 +1,8 @@
 # Git for Windows
 
-[Git](https://git-scm.com/)是一个[自由和开源](https://git-scm.com/about/free-and-open-source)的分布式版本控制系统，旨在以速度和效率处理从小型到非常大的项目。
+[Git](https://git-scm.com/)是一个[自由和开源](https://git-scm.com/about/free-and-open-source)的分布式版本控制系统，旨在以速度和效率处理从小型到非常大的项目。[^official]
+
+[^official]:[Git 英文官网](https://git-scm.com/)
 
 ## 下载
 
@@ -10,8 +12,8 @@
 
 所以这里提供两个可以下载到 git for Windows 的网站。
 
-[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/)
-[git-for-windows - registry.npmmirror.com](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
+- [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/)
+- [git-for-windows - registry.npmmirror.com](https://registry.npmmirror.com/binary.html?path=git-for-windows/)
 
 ## 代理
 

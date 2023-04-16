@@ -1,16 +1,16 @@
 # Yarn Berry
 
-[Yarn](https://yarnpkg.com/) 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求。[^official][^official cn]
+[Yarn](https://yarnpkg.com/) 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求。[^official][^official-cn]
 
 [^official]:[Yarn 英文官网](https://yarnpkg.com/)
-[^official cn]:[Yarn 中文官网](https://yarnpkg.cn/)
+[^official-cn]:[Yarn 中文官网](https://yarnpkg.cn/)
 
 ## 下载
 
 您需要使用npm安装[yarn classic](./classic.md)后，才可以针对项目安装[yarn berry](#yarn-berry)。  
 为新项目配置[yarn berry](#yarn-berry)只需要使用以下命令即可。
 
-```powershell
+```shell
 yarn init -2
 ```
 

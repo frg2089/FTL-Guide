@@ -1,13 +1,14 @@
 # Flutter
 
-[Flutter](https://flutter.dev/) 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用。[^flutter.cn]
+[Flutter](https://flutter.dev/) 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用。[^official][^official-cn]
 
-[^flutter.cn]:[flutter.cn](https://flutter.cn/#tabs)
+[^official]:[Flutter 英文官网](https://flutter.dev)
+[^official-cn]:[Flutter 中文官网](https://flutter.cn)
 
 ## 下载
 
 想要下载flutter，通常是直接clone在GitHub上的存储库即可。
-```powershell
+```shell
 # 使用HTTP
 git clone -b stable https://github.com/flutter/flutter.git
 # 使用SSH
