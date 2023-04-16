@@ -8,6 +8,10 @@
 
 [^readme]: 参考官方仓库的[ReadME](https://github.com/npm/cli#is-npm-an-acronym-for-node-package-manager)文件
 
+## 下载
+
+通常来说，安装node后会自动安装npm，此处不再说明。
+
 ## 源
 
 通常情况下，我们称呼提供npm包的服务器为注册表服务器（`Registry Server`），

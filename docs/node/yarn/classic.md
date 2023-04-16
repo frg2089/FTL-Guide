@@ -2,6 +2,17 @@
 
 [官方网站](https://classic.yarnpkg.com/)
 
+## 下载
+
+您只需要使用npm进行安装即可
+
+```powershell
+# 全局安装(推荐)
+npm install --global yarn
+# 为仓库单独安装
+npm install --dev yarn
+```
+
 ## 源
 
 通常情况下，我们称呼提供npm包的服务器为注册表服务器（`Registry Server`），

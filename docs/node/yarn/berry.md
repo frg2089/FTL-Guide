@@ -2,6 +2,17 @@
 
 [官方网站](https://yarnpkg.com/)
 
+## 下载
+
+您需要使用npm安装[yarn classic](./classic.md)后，才可以针对项目安装[yarn berry](#yarn-berry)。  
+为新项目配置[yarn berry](#yarn-berry)只需要使用以下命令即可。
+
+```powershell
+yarn init -2
+```
+
+或者，您也可以将`.yarn`文件夹和`.yarnrc.yml`文件复制到旧项目中为旧项目安装[yarn berry](#yarn-berry)。
+
 ## 源
 
 通常情况下，我们称呼提供npm包的服务器为注册表服务器（`Registry Server`），
