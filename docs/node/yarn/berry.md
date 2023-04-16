@@ -1,6 +1,9 @@
 # Yarn Berry
 
-[官方网站](https://yarnpkg.com/)
+[Yarn](https://yarnpkg.com/) 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求。[^official][^official cn]
+
+[^official]:[Yarn 英文官网](https://yarnpkg.com/)
+[^official cn]:[Yarn 中文官网](https://yarnpkg.cn/)
 
 ## 下载
 

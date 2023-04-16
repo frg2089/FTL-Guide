@@ -2,6 +2,10 @@
 
 [官方网站](https://classic.yarnpkg.com/)
 
+[Yarn](https://yarnpkg.com/) 快速、可靠、安全的依赖管理工具。[^official][^official cn]
+
+[^official]:[Yarn 英文官网](https://classic.yarnpkg.com/)
+[^official cn]:[Yarn 中文官网](https://classic.yarnpkg.cn/)
 ## 下载
 
 您只需要使用npm进行安装即可
