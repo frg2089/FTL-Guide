@@ -29,8 +29,8 @@ git clone -b stable git@github.com:flutter/flutter.git
 |FLUTTER_STORAGE_BASE_URL|https://storage.flutter-io.cn|
 
 ::: warning 注意
-请注意，您的锁文件(`package-lock.json`)中可能会写有您的 Registry 服务器地址，
-这或许会导致没有设置与您相同 Registry 的开发者在开发时会反复修改锁文件。
+请注意，您的锁文件(`pubspec.lock`)中可能会写有您的 PUB_HOSTED_URL 服务器地址，
+这或许会导致没有设置与您相同 PUB_HOSTED_URL 的开发者在开发时会反复修改锁文件。
 :::
 
 [^china]:[在中国使用Flutter - docs.flutter.dev](https://docs.flutter.dev/community/china)
