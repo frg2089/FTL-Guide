@@ -31,6 +31,15 @@ git clone -b stable git@github.com:flutter/flutter.git
 ::: warning 注意
 请注意，您的锁文件(`pubspec.lock`)中可能会写有您的 PUB_HOSTED_URL 服务器地址，
 这或许会导致没有设置与您相同 PUB_HOSTED_URL 的开发者在开发时会反复修改锁文件。
+
+您可以通过Git Hooks来在提交时自动替换 PUB_HOSTED_URL
+
+```powershell
+#!/usr/bin/env pwsh
+# .git\hooks\pre-commit
+$tmp = Get-Content .\pubspec.lock | ForEach-Object { $PSItem.Replace('https://pub.flutter-io.cn', 'https://pub.dev') }
+$tmp | Out-File .\pubspec.lock  
+```
 :::
 
 [^china]:[在中国使用Flutter - docs.flutter.dev](https://docs.flutter.dev/community/china)
