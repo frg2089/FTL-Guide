@@ -7,14 +7,37 @@
 
 ## 下载
 
-您需要使用npm安装[yarn classic](./classic.md)后，才可以针对项目安装[yarn berry](#yarn-berry)。  
-为新项目配置[yarn berry](#yarn-berry)只需要使用以下命令即可。
+您首先需要安装 Corepack  
+当您的 Node.js 版本 >=16.10 时，您可以直接使用这条命令安装 Corepack 。  
+```shell
+corepack enable
+```
+如果您的 Node.js 版本 <16.10，您需要额外下载 Corepack 。  
+```shell
+npm i -g corepack
+```
+
+当一切就绪后，您可以使用这条命令来安装 Yarn Berry。[^install]
+```shell
+# Node.js ^16.17 or >=18.6
+corepack prepare yarn@stable --activate
+# Node.js <16.17 or <18.6
+corepack prepare yarn@<version> --activate
+```
+
+[^install]:[Yarn 安装教程](https://yarnpkg.com/getting-started/install)
+
+或者，您只希望在个别项目中使用 [Yarn Berry](#yarn-berry) ，
+您的其他项目依旧使用 [Yarn Classic](./classic.md) ，
+您可以仅为新项目配置 [Yarn Berry](#yarn-berry) 。
+此处假设您已经安装了 [Yarn Classic](./classic.md) ，
+您只需要使用以下命令即可。
 
 ```shell
 yarn init -2
 ```
 
-或者，您也可以将`.yarn`文件夹和`.yarnrc.yml`文件复制到旧项目中为旧项目安装[yarn berry](#yarn-berry)。
+您亦可以将`.yarn`文件夹和`.yarnrc.yml`文件复制到旧项目中为旧项目安装 [Yarn Berry](#yarn-berry)。
 
 ## 源
 
