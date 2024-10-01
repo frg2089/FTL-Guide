@@ -2,7 +2,7 @@
 
 [Git](https://git-scm.com/)是一个[自由和开源](https://git-scm.com/about/free-and-open-source)的分布式版本控制系统，旨在以速度和效率处理从小型到非常大的项目。[^official]
 
-[^official]:[Git 英文官网](https://git-scm.com/)
+[^official]: [Git 英文官网](https://git-scm.com/)
 
 ## 下载
 
@@ -18,15 +18,19 @@
 ## 代理
 
 ### HTTP 代理
+
 通常情况下，您只需要配置`http_proxy`[^env]和`https_proxy`[^env]环境变量即可
 
 您也可以使用命令操作[^proxy]
+
 ```shell
 git config set http.proxy <您的代理服务器> --global
 ```
 
-[^env]:[git 关于http部分的文档](https://github.com/git/git/blob/master/Documentation/config/http.txt)
-[^proxy]:[http.proxy - git-scm.com/docs](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpproxy)
+[^env]: [git 关于http部分的文档](https://github.com/git/git/blob/master/Documentation/config/http.txt)
+
+[^proxy]: [http.proxy - git-scm.com/docs](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpproxy)
 
 ### SSH 代理
+
 一般来说，您无需配置这个代理，SSH方式要比HTTPS连接更稳定和可靠。

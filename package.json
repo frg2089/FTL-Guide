@@ -1,20 +1,49 @@
 {
   "name": "ftl-guide",
   "version": "1.0.0",
+  "type": "module",
   "description": "解决开发环境镜像配置的指南",
   "license": "CC-BY-NC-SA",
-  "type": "module",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "pnpm@9.11.0+sha256.1c0e33f70e5df9eede84a357bdfa0b1f9dba6e58194628d48a1055756f553754",
   "scripts": {
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",
     "dev": "vuepress dev docs",
-    "update-package": "yarn dlx vp-update"
+    "format": "prettier --write .",
+    "prepare": "husky",
+    "update-package": "pnpm dlx vp-update@next"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.61",
-    "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.61",
-    "vuepress-theme-hope": "2.0.0-beta.203"
+    "@vuepress/bundler-vite": "2.0.0-rc.17",
+    "@vuepress/plugin-feed": "2.0.0-rc.52",
+    "husky": "^9.1.6",
+    "mermaid": "^11.2.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-pkg": "^0.18.1",
+    "sass": "^1.79.4",
+    "typescript": "^5.6.2",
+    "vue": "^3.5.10",
+    "vue-tsc": "^2.1.6",
+    "vuepress": "2.0.0-rc.17",
+    "vuepress-theme-hope": "2.0.0-rc.58"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "bracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "auto",
+    "plugins": [
+      "prettier-plugin-organize-imports",
+      "prettier-plugin-pkg"
+    ]
   }
 }

@@ -2,8 +2,10 @@
 
 [Yarn](https://classic.yarnpkg.com/) 快速、可靠、安全的依赖管理工具。[^official][^official-cn]
 
-[^official]:[Yarn 英文官网](https://classic.yarnpkg.com/)
-[^official-cn]:[Yarn 中文官网](https://classic.yarnpkg.cn/)
+[^official]: [Yarn 英文官网](https://classic.yarnpkg.com/)
+
+[^official-cn]: [Yarn 中文官网](https://classic.yarnpkg.cn/)
+
 ## 下载
 
 您只需要使用npm进行安装即可
@@ -21,6 +23,7 @@ npm install --dev yarn
 我们会在之后的文档中称呼它为`Registry 服务器`。
 
 通常情况下，您只需要执行这样的指令[^docs]:
+
 ```shell
 yarn config set registry <Registry 服务器>
 ```
@@ -31,12 +34,14 @@ yarn config set registry <Registry 服务器>
 而不会查询其他的 Registry 服务器。
 :::
 
-|推荐使用的源|
-|-|
-|https://registry.npmmirror.com [^npmmirror]|
+| 推荐使用的源                                |
+| ------------------------------------------- |
+| https://registry.npmmirror.com [^npmmirror] |
 
 <!-- 没有找到 Yarn Classic 对应的文档 -->
+
 [^docs]: [registry - npm docs](https://docs.npmjs.com/cli/v9/using-npm/config#registry)
+
 [^npmmirror]: [npmmirror.com](https://npmmirror.com)
 
 ## 代理
@@ -44,14 +49,18 @@ yarn config set registry <Registry 服务器>
 通常情况下，您只需要配置`http_proxy`[^proxy]和`https_proxy`[^https-proxy]环境变量即可
 
 您也可以使用命令操作[^proxy][^https-proxy]
+
 ```shell
 yarn config set proxy <您的代理服务器>
 yarn config set https-proxy <您的代理服务器>
 ```
+
 ::: warning 注意
 Yarn Classic 不支持socks代理
 :::
 
 <!-- 没有找到 Yarn Classic 对应的文档 -->
+
 [^proxy]: [proxy - npm docs](https://docs.npmjs.com/cli/v9/using-npm/config#proxy)
+
 [^https-proxy]: [https-proxy - npm docs](https://docs.npmjs.com/cli/v9/using-npm/config#https-proxy)
